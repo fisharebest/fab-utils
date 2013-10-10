@@ -36,7 +36,7 @@ USE fab_utils //
 
 ALTER DATABASE COLLATE utf8mb4_unicode_ci //
 
--- fab-genealogy - Database utilities in MySQL
+-- fab-utils - Database utilities in MySQL
 --
 -- Copyright (c) 2013 Greg Roach, fisharebest@gmail.com
 --
@@ -123,7 +123,7 @@ BEGIN
 	);
 END //
 
--- fab-genealogy - Database utilities in MySQL
+-- fab-utils - Database utilities in MySQL
 --
 -- Copyright (c) 2013 Greg Roach, fisharebest@gmail.com
 --
@@ -155,7 +155,7 @@ BEGIN
 	);
 END //
 
--- fab-genealogy - Database utilities in MySQL
+-- fab-utils - Database utilities in MySQL
 --
 -- Copyright (c) 2013 Greg Roach, fisharebest@gmail.com
 --
@@ -198,7 +198,7 @@ BEGIN
 	RETURN CONCAT('<Polygon><outerBoundaryIs>', /*##*/linestring_to_kml(EXTERIORRING(p_polygon)), '</outerBoundaryIs>',  kml, '</Polygon>');
 END //
 
--- fab-genealogy - Database utilities in MySQL
+-- fab-utils - Database utilities in MySQL
 --
 -- Copyright (c) 2013 Greg Roach, fisharebest@gmail.com
 --
@@ -310,7 +310,7 @@ BEGIN
 	END;	
 END //
 
--- fab-genealogy - Database utilities in MySQL
+-- fab-utils - Database utilities in MySQL
 --
 -- Copyright (c) 2013 Greg Roach, fisharebest@gmail.com
 --
@@ -386,7 +386,7 @@ BEGIN
 	RETURN GeomFromText(wkt);
 END //
 
--- fab-genealogy - Database utilities in MySQL
+-- fab-utils - Database utilities in MySQL
 --
 -- Copyright (c) 2013 Greg Roach, fisharebest@gmail.com
 --
@@ -427,7 +427,7 @@ BEGIN
 	END IF;
 END //
 
--- fab-genealogy - Database utilities in MySQL
+-- fab-utils - Database utilities in MySQL
 --
 -- Copyright (c) 2013 Greg Roach, fisharebest@gmail.com
 --
@@ -469,7 +469,7 @@ BEGIN
 	);
 END //
 
--- fab-genealogy - Database utilities in MySQL
+-- fab-utils - Database utilities in MySQL
 --
 -- Copyright (c) 2013 Greg Roach, fisharebest@gmail.com
 --

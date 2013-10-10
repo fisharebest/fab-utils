@@ -1,4 +1,4 @@
--- fab-genealogy - Database utilities in MySQL
+-- fab-utils - Database utilities in MySQL
 --
 -- Copyright (c) 2013 Greg Roach, fisharebest@gmail.com
 --
